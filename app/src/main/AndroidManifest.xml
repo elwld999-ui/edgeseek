@@ -56,11 +56,11 @@
                 <action android:name="android.intent.action.SCREEN_OFF"/>
             </intent-filter>
         </receiver>
-              <!-- Quick Settings Tile Service for EdgeSeek -->
+             <!-- Quick Settings Tile Service for EdgeSeek -->
         <service
             android:name=".service.EdgeSeekTileService"
             android:label="EdgeSeek"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@android:drawable/ic_menu_preferences"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
             <intent-filter>
